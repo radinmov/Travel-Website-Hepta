@@ -1,0 +1,393 @@
+html {
+    font-size: 10px;
+}
+* ,*::before ,*::after {
+    box-sizing: border-box;
+}
+body
+{
+    direction: ltr;
+    /* background-color: #34363a; */
+    color: #bbb;
+    font-family: "Mulish" ,  Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+.background
+{
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://preview.colorlib.com/theme/hepta/images/hero_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(50%);
+    
+}
+h1 , h2 ,h3 , h4 , h5 , h6 
+{
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+a 
+{
+    text-decoration: none;
+    color: #bbb;
+}
+ul  ,li
+{
+    list-style: none;
+}
+i
+{
+    color: rgb(16, 231, 167);
+}
+.black-txt
+{
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+.gray-txt
+{
+    color: rgb(158, 138, 138);
+    font-size: 16px;
+    text-align: left;
+}
+.green-txt
+{
+    color: rgb(16, 231, 167);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.white-txt-footer
+{
+    font-size: 25px;
+    color: #fff;
+}
+.center
+{
+    text-align: center;
+}
+.center2
+{
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+}
+.black-txt-small
+{
+    color: #3b3a3a;
+    font-size: 20px ;
+    font-style: italic;
+    line-height: 1.5;
+}
+.wrapepre
+{
+    width: 100%;
+    height: auto    ;
+    display: flex;
+    flex-direction: column;
+}
+.container
+{
+    width: 100%;
+    padding:  0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1
+{
+    color :#400da0;
+    font-size: 29px;
+    margin-left: 10px;
+    margin-top: 50px;
+
+}
+.menu
+{
+    display: flex;
+    gap: 25px;
+    margin-top: 53px;
+}
+.container .menu p a 
+{
+    font-family: "Mukta Mahee";
+    color:#65c0ba;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.txt-start-tr
+{
+    color:#f12020;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.action1
+{
+    font-weight: bold;
+    font-size: 65px;
+    font-family:"Mukta Mahee" ;
+}
+.btn-visit
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: aqua;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.container2
+{
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 0 auto;
+}
+.start-zir-back
+{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 52px;
+}
+.img-start img
+{
+    width: 540px;
+    height: 650px;
+    gap: 20px;
+}
+.watch
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-top: 50px;
+}
+.circle-play
+{
+    width: 60px;
+    height: 60px;
+    border: 0.1px solid rgb(194, 188, 188);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.watch .circle-play i
+{
+    font-size: 25px;
+}
+.experience
+{
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    background-color: #fafafa;
+    margin-top: 100px;
+    /* display: flex; */
+}
+.container3
+{
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+}
+.txt-experience
+{
+    width: 48%;
+    text-align: center;
+    margin: 0 auto;
+}
+.row-1
+{
+    width: 25.1%;
+    margin: 0 auto;
+}
+.zir__experience
+{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.zir__experience .row-1 .img-row1 img
+{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.txt-International
+{
+    width:45%;
+    margin:75px auto;
+}
+.advance
+{
+    font-size: 40px;
+}
+.ph-internationl
+{
+    display: flex;
+    justify-content: center;
+    z-index:1
+}
+.ph-internationl i
+{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #343a40;
+    cursor: pointer;
+}
+.background-2
+{
+    width: 100%;
+    height: 800px;
+    background-color: #65c0ba !important;
+    opacity: 0.98;
+}
+.txt-zir-ph-international
+{
+    margin-top: 225px;
+}
+.txt-zir-ph-international p
+{
+    margin-top: 20px;
+}
+.shape-ph-zir-txt
+{
+    width: 340px;
+    height: 528px;
+    background-color: #6effec;
+    float: left;
+    margin-top: 75px;
+}
+.img-sh__shape-ph-zir-txt img
+{
+    width: 340px;
+}
+.bigger
+{
+    font-size: 28px;
+    margin-left: 18px;
+}
+.frame
+{
+    width: 91%;
+    margin: 0 auto;
+    text-align: center;
+}
+.left
+{
+    margin-left: 18px;
+}
+.flex
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.bg-Happy-Customers
+{
+    margin-top: 50px   ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background: #fafafa;
+}
+.tets
+{
+    font-size: 55px;
+    margin-top: 100px;
+}
+  .inner-customers__bg1 .img-circle__inner-customers img
+{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.inner-customers__bg1 
+{ 
+    width: 349px;
+    height: 180px;
+    margin-top: 100px;
+}
+.txt-zir-bg-happy 
+{
+    margin-top: 100px;
+}
+.txt-zir-bg-happy p
+{
+    width: 31%;
+    margin: 0 auto;
+}
+.ph-level-stars 
+{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.ph-level-stars .column1 img
+{
+    width: 255px;
+    height: 171px;
+}
+.ph-level-stars .column1 .stars-zir-black img
+{
+    width: 86px;
+    height: 32px;
+}
+.stars-zir-black
+{
+    display: flex;
+    justify-content: space-between   ;
+    align-items: center;
+}
+.footer
+{
+    margin-top: 173px;
+    width: 100%;
+    height: 500px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer p
+{
+    margin-top: 20px;
+
+}
+.footer2  
+{
+    margin-top: -50px    ;
+    width: 100%;
+    height: auto;
+    background-color: #1a1a1a;
+    margin-top: 0 auto;
+}
+.footer2   p
+{
+    text-align: center;
+}
+
